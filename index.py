@@ -36,5 +36,5 @@ while True:
         print("No has elegido alguna opcion correcta")
 
 print("TOTAL DE LA COMPRA: ",total)   
-print("TOTAL DE LA COMPRA REDONDEADAAAAA:",totalr)
+print("TOTAL DE LA COMPRA REDONDEADAA:",totalr)
 
