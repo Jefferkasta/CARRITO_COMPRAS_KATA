@@ -1,3 +1,2 @@
 @echo off
-code .
-pause
+start code .

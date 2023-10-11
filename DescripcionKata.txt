@@ -1,0 +1,54 @@
+Descripción general sobre cómo podrías abordar este kata de construcción de un carrito de compras:
+
+1. *Definición de Clases y Estructuras*: Primero, define las clases o estructuras que necesitas para representar los productos, descuentos y el carrito de compras en sí. Piensa en qué atributos y métodos serían necesarios para cada uno.
+
+2. *Agregar Productos al Carrito*: Implementa la función para agregar productos al carrito. Esto generalmente implica tener una lista o diccionario para mantener un seguimiento de los productos y sus cantidades.
+
+3. *Eliminar Productos del Carrito*: Crea una función para eliminar productos del carrito, ajustando adecuadamente las cantidades y el total.
+
+4. *Aplicar Descuentos*: Implementa la lógica para aplicar descuentos al carrito. Puede ser descuentos porcentuales, cupones, etc.
+
+5. *Mostrar Contenido del Carrito*: Crea una función para imprimir o mostrar el contenido actual del carrito, incluyendo productos, cantidades y precios.
+
+6. *Iteración y Mejoras*: A medida que progresas, podrías iterar sobre tu implementación para agregar funcionalidades adicionales, como cálculos de totales, verificación de existencias de productos, etc.
+
+7. *Pruebas Unitarias*: A medida que construyes cada parte, asegúrate de realizar pruebas unitarias para confirmar que cada función funcione según lo esperado.
+
+8. *Optimización y Mantenimiento*: A medida que el kata se completa, revisa tu código en busca de oportunidades de optimización y asegúrate de que todo esté funcionando como debería.
+
+9. *Documentación*: Agrega comentarios y documentación a tu código para que otros (y tu futuro tú) puedan entender fácilmente cómo funciona todo.
+
+10. *Reflexión y Aprendizaje*: Al final, reflexiona sobre cómo fue el proceso y lo que aprendiste. Piensa en cómo podrías aplicar estos conceptos en situaciones del mundo real.
+
+Recuerda que el enfoque iterativo es clave en la programación. Empieza con una funcionalidad básica, asegúrate de que funcione y luego construye sobre eso. Esto te ayudará a manejar mejor el proceso de desarrollo y a crear un código más sólido y mantenible.
+
+REQUISITOS
+
+1.Como cliente, quiero ver mi carrito de compras.
+2.Carrito vacío
+3.Agregar producto al carrito de compras
+4.Aplicar descuento al carrito de compras
+
+fetch para consullta de datos
+
+// URL del servicio o API que deseas consultar
+const apiUrl = 'https://api.example.com/data';
+
+// Realizar una solicitud GET a la URL
+fetch(apiUrl)
+  .then(response => {
+    // Verificar si la respuesta es exitosa (código de estado 200)
+    if (!response.ok) {
+      throw new Error('La solicitud no fue exitosa');
+    }
+    // Convertir la respuesta a JSON
+    return response.json();
+  })
+  .then(data => {
+    // Trabajar con los datos obtenidos, 'data' es un objeto JavaScript
+    console.log('Datos recibidos:', data);
+  })
+  .catch(error => {
+    // Manejar errores, por ejemplo, mostrar un mensaje de error
+    console.error('Error en la solicitud:', error);
+  });
