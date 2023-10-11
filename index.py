@@ -38,3 +38,11 @@ while True:
 print("TOTAL DE LA COMPRA: ",total)   
 print("TOTAL DE LA COMPRA REDONDEADAA:",totalr)
 
+"""
+ANOTACIONES PROYECTO//
+VIDEO Django Fazt = Parte Django Shell
+---// Hasta ahora se creo el entorno virtual, se uso el entorno virtual, se instalo Django, se creo proyecto,
+    Explico estructura del proyecto,se creo app, se imprimio en navegador el primer hola mundo,se hizo un 
+    include para organizar mejor las urls, se descargo SqBrowser y se creo modelos,para base de datos,se esta
+    interactuando con DjangoShell para agregar datos desde DbBrowser,
+"""
