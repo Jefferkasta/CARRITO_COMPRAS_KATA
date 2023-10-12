@@ -11,5 +11,5 @@ def saludo(request,username):
 def about(request): #MELO
     return HttpResponse("<h2>About</h2>")
 
-def nosotros(request):
-    return render(request,'paginas/nosotros.html')
+#def nosotros(request):
+#   return render(request,'paginas/nosotros.html')
