@@ -14,3 +14,8 @@ class Task(models.Model):
     
     def __str__(self):
         return self.title + ' - ' + self.project.name
+    
+class Productos(models.Model):
+    nombre = models.CharField(max_length=200)
+    precio = models.TextField()
+    descripcion = models.TextField()
